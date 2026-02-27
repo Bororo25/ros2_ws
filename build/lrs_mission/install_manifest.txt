@@ -1,0 +1,16 @@
+/home/lrs/ros2_ws/install/lrs_mission/lib/lrs_mission/lrs_mission_node
+/home/lrs/ros2_ws/install/lrs_mission/share/ament_index/resource_index/package_run_dependencies/lrs_mission
+/home/lrs/ros2_ws/install/lrs_mission/share/ament_index/resource_index/parent_prefix_path/lrs_mission
+/home/lrs/ros2_ws/install/lrs_mission/share/lrs_mission/environment/ament_prefix_path.sh
+/home/lrs/ros2_ws/install/lrs_mission/share/lrs_mission/environment/ament_prefix_path.dsv
+/home/lrs/ros2_ws/install/lrs_mission/share/lrs_mission/environment/path.sh
+/home/lrs/ros2_ws/install/lrs_mission/share/lrs_mission/environment/path.dsv
+/home/lrs/ros2_ws/install/lrs_mission/share/lrs_mission/local_setup.bash
+/home/lrs/ros2_ws/install/lrs_mission/share/lrs_mission/local_setup.sh
+/home/lrs/ros2_ws/install/lrs_mission/share/lrs_mission/local_setup.zsh
+/home/lrs/ros2_ws/install/lrs_mission/share/lrs_mission/local_setup.dsv
+/home/lrs/ros2_ws/install/lrs_mission/share/lrs_mission/package.dsv
+/home/lrs/ros2_ws/install/lrs_mission/share/ament_index/resource_index/packages/lrs_mission
+/home/lrs/ros2_ws/install/lrs_mission/share/lrs_mission/cmake/lrs_missionConfig.cmake
+/home/lrs/ros2_ws/install/lrs_mission/share/lrs_mission/cmake/lrs_missionConfig-version.cmake
+/home/lrs/ros2_ws/install/lrs_mission/share/lrs_mission/package.xml

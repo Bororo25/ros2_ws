@@ -1,0 +1,67 @@
+[0.016s] Invoking command in '/home/lrs/ros2_ws/build/lrs_mission': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lrs/ros2_ws -DCMAKE_INSTALL_PREFIX=/home/lrs/ros2_ws/install/lrs_mission
+[0.584s] -- The C compiler identification is GNU 11.4.0
+[0.893s] -- The CXX compiler identification is GNU 11.4.0
+[0.919s] -- Detecting C compiler ABI info
+[1.040s] -- Detecting C compiler ABI info - done
+[1.046s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[1.047s] -- Detecting C compile features
+[1.049s] -- Detecting C compile features - done
+[1.054s] -- Detecting CXX compiler ABI info
+[1.125s] -- Detecting CXX compiler ABI info - done
+[1.133s] -- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+[1.133s] -- Detecting CXX compile features
+[1.133s] -- Detecting CXX compile features - done
+[1.142s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.292s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.460s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[1.584s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.596s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.625s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.669s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.713s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.835s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.843s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.998s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.032s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.068s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.092s] -- Looking for pthread.h
+[2.206s] -- Looking for pthread.h - found
+[2.207s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.268s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.269s] -- Found Threads: TRUE  
+[2.390s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.422s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[2.501s] -- Found mavros_msgs: 2.10.1 (/opt/ros/humble/share/mavros_msgs/cmake)
+[2.621s] -- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)
+[2.702s] -- Configuring done
+[2.716s] -- Generating done
+[2.720s] -- Build files have been written to: /home/lrs/ros2_ws/build/lrs_mission
+[2.728s] Invoked command in '/home/lrs/ros2_ws/build/lrs_mission' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lrs/ros2_ws -DCMAKE_INSTALL_PREFIX=/home/lrs/ros2_ws/install/lrs_mission
+[2.729s] Invoking command in '/home/lrs/ros2_ws/build/lrs_mission': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lrs/ros2_ws/build/lrs_mission -- -j8 -l8
+[2.773s] [ 60%] [32mBuilding CXX object CMakeFiles/lrs_mission_node.dir/src/mission_loader.cpp.o[0m
+[2.774s] [ 60%] [32mBuilding CXX object CMakeFiles/lrs_mission_node.dir/src/main.cpp.o[0m
+[2.774s] [ 60%] [32mBuilding CXX object CMakeFiles/lrs_mission_node.dir/src/mavros_interface.cpp.o[0m
+[2.774s] [ 80%] [32mBuilding CXX object CMakeFiles/lrs_mission_node.dir/src/mission_executor.cpp.o[0m
+[3.362s] [100%] [32m[1mLinking CXX executable lrs_mission_node[0m
+[4.275s] [100%] Built target lrs_mission_node
+[4.284s] Invoked command in '/home/lrs/ros2_ws/build/lrs_mission' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lrs/ros2_ws/build/lrs_mission -- -j8 -l8
+[4.293s] Invoking command in '/home/lrs/ros2_ws/build/lrs_mission': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lrs/ros2_ws/build/lrs_mission
+[4.299s] -- Install configuration: ""
+[4.303s] -- Installing: /home/lrs/ros2_ws/install/lrs_mission/lib/lrs_mission/lrs_mission_node
+[4.308s] -- Set runtime path of "/home/lrs/ros2_ws/install/lrs_mission/lib/lrs_mission/lrs_mission_node" to ""
+[4.308s] -- Installing: /home/lrs/ros2_ws/install/lrs_mission/share/ament_index/resource_index/package_run_dependencies/lrs_mission
+[4.309s] -- Installing: /home/lrs/ros2_ws/install/lrs_mission/share/ament_index/resource_index/parent_prefix_path/lrs_mission
+[4.309s] -- Up-to-date: /home/lrs/ros2_ws/install/lrs_mission/share/lrs_mission/environment/ament_prefix_path.sh
+[4.309s] -- Installing: /home/lrs/ros2_ws/install/lrs_mission/share/lrs_mission/environment/ament_prefix_path.dsv
+[4.309s] -- Up-to-date: /home/lrs/ros2_ws/install/lrs_mission/share/lrs_mission/environment/path.sh
+[4.309s] -- Installing: /home/lrs/ros2_ws/install/lrs_mission/share/lrs_mission/environment/path.dsv
+[4.310s] -- Installing: /home/lrs/ros2_ws/install/lrs_mission/share/lrs_mission/local_setup.bash
+[4.310s] -- Installing: /home/lrs/ros2_ws/install/lrs_mission/share/lrs_mission/local_setup.sh
+[4.310s] -- Installing: /home/lrs/ros2_ws/install/lrs_mission/share/lrs_mission/local_setup.zsh
+[4.310s] -- Installing: /home/lrs/ros2_ws/install/lrs_mission/share/lrs_mission/local_setup.dsv
+[4.310s] -- Installing: /home/lrs/ros2_ws/install/lrs_mission/share/lrs_mission/package.dsv
+[4.311s] -- Installing: /home/lrs/ros2_ws/install/lrs_mission/share/ament_index/resource_index/packages/lrs_mission
+[4.312s] -- Installing: /home/lrs/ros2_ws/install/lrs_mission/share/lrs_mission/cmake/lrs_missionConfig.cmake
+[4.312s] -- Installing: /home/lrs/ros2_ws/install/lrs_mission/share/lrs_mission/cmake/lrs_missionConfig-version.cmake
+[4.312s] -- Up-to-date: /home/lrs/ros2_ws/install/lrs_mission/share/lrs_mission/package.xml
+[4.314s] Invoked command in '/home/lrs/ros2_ws/build/lrs_mission' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lrs/ros2_ws/build/lrs_mission

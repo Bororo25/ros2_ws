@@ -1,0 +1,118 @@
+[0.000000] (-) TimerEvent: {}
+[0.000204] (lrs_mission) JobQueued: {'identifier': 'lrs_mission', 'dependencies': OrderedDict()}
+[0.000266] (lrs_mission) JobStarted: {'identifier': 'lrs_mission'}
+[0.015725] (lrs_mission) JobProgress: {'identifier': 'lrs_mission', 'progress': 'cmake'}
+[0.016093] (lrs_mission) Command: {'cmd': ['/usr/bin/cmake', '/home/lrs/ros2_ws', '-DCMAKE_INSTALL_PREFIX=/home/lrs/ros2_ws/install/lrs_mission'], 'cwd': '/home/lrs/ros2_ws/build/lrs_mission', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lrs'), ('LC_TIME', 'sk_SK.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lrs'), ('OLDPWD', '/home/lrs'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'sk_SK.UTF-8'), ('SYSTEMD_EXEC_PID', '1417'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/lrs/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lrs'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lrs'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/lrs/LRS-FEI/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/lib/ccache:/home/lrs/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/lrs/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lrs:@/tmp/.ICE-unix/1390,unix/lrs:/tmp/.ICE-unix/1390'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'sk_SK.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6d58bd75_d143_4381_b71d_c3af91401ce5'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'sk_SK.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.92'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lrs/ros2_ws/install/lrs_mission:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sk_SK.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'sk_SK.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'sk_SK.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lrs/ros2_ws/build/lrs_mission'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'sk_SK.UTF-8'), ('LC_PAPER', 'sk_SK.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lrs/ros2_ws/install/lrs_mission:/opt/ros/humble')]), 'shell': False}
+[0.099545] (-) TimerEvent: {}
+[0.200207] (-) TimerEvent: {}
+[0.300717] (-) TimerEvent: {}
+[0.401237] (-) TimerEvent: {}
+[0.501824] (-) TimerEvent: {}
+[0.583639] (lrs_mission) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.601924] (-) TimerEvent: {}
+[0.702251] (-) TimerEvent: {}
+[0.802830] (-) TimerEvent: {}
+[0.892894] (lrs_mission) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.903377] (-) TimerEvent: {}
+[0.919355] (lrs_mission) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.003548] (-) TimerEvent: {}
+[1.039743] (lrs_mission) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.046199] (lrs_mission) StdoutLine: {'line': b'-- Check for working C compiler: /usr/lib/ccache/cc - skipped\n'}
+[1.047374] (lrs_mission) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.049215] (lrs_mission) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.054455] (lrs_mission) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.103670] (-) TimerEvent: {}
+[1.125012] (lrs_mission) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.132910] (lrs_mission) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped\n'}
+[1.133210] (lrs_mission) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.133677] (lrs_mission) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.142566] (lrs_mission) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.203791] (-) TimerEvent: {}
+[1.292008] (lrs_mission) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.304010] (-) TimerEvent: {}
+[1.404316] (-) TimerEvent: {}
+[1.460531] (lrs_mission) StdoutLine: {'line': b'-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.504461] (-) TimerEvent: {}
+[1.584320] (lrs_mission) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.596124] (lrs_mission) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.604593] (-) TimerEvent: {}
+[1.625532] (lrs_mission) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.669376] (lrs_mission) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.704744] (-) TimerEvent: {}
+[1.712986] (lrs_mission) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.804887] (-) TimerEvent: {}
+[1.835028] (lrs_mission) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.843437] (lrs_mission) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.905017] (-) TimerEvent: {}
+[1.998618] (lrs_mission) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.005140] (-) TimerEvent: {}
+[2.031912] (lrs_mission) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[2.067898] (lrs_mission) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.091968] (lrs_mission) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.105232] (-) TimerEvent: {}
+[2.205487] (-) TimerEvent: {}
+[2.206466] (lrs_mission) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.206983] (lrs_mission) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.268321] (lrs_mission) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.269383] (lrs_mission) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.305601] (-) TimerEvent: {}
+[2.389773] (lrs_mission) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[2.405736] (-) TimerEvent: {}
+[2.422230] (lrs_mission) StdoutLine: {'line': b'-- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[2.500910] (lrs_mission) StdoutLine: {'line': b'-- Found mavros_msgs: 2.10.1 (/opt/ros/humble/share/mavros_msgs/cmake)\n'}
+[2.505847] (-) TimerEvent: {}
+[2.606077] (-) TimerEvent: {}
+[2.620996] (lrs_mission) StdoutLine: {'line': b'-- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)\n'}
+[2.702382] (lrs_mission) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.706148] (-) TimerEvent: {}
+[2.716137] (lrs_mission) StdoutLine: {'line': b'-- Generating done\n'}
+[2.719767] (lrs_mission) StdoutLine: {'line': b'-- Build files have been written to: /home/lrs/ros2_ws/build/lrs_mission\n'}
+[2.728002] (lrs_mission) CommandEnded: {'returncode': 0}
+[2.728425] (lrs_mission) JobProgress: {'identifier': 'lrs_mission', 'progress': 'build'}
+[2.729108] (lrs_mission) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lrs/ros2_ws/build/lrs_mission', '--', '-j8', '-l8'], 'cwd': '/home/lrs/ros2_ws/build/lrs_mission', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lrs'), ('LC_TIME', 'sk_SK.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lrs'), ('OLDPWD', '/home/lrs'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'sk_SK.UTF-8'), ('SYSTEMD_EXEC_PID', '1417'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/lrs/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lrs'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lrs'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/lrs/LRS-FEI/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/lib/ccache:/home/lrs/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/lrs/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lrs:@/tmp/.ICE-unix/1390,unix/lrs:/tmp/.ICE-unix/1390'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'sk_SK.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6d58bd75_d143_4381_b71d_c3af91401ce5'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'sk_SK.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.92'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lrs/ros2_ws/install/lrs_mission:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sk_SK.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'sk_SK.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'sk_SK.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lrs/ros2_ws/build/lrs_mission'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'sk_SK.UTF-8'), ('LC_PAPER', 'sk_SK.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lrs/ros2_ws/install/lrs_mission:/opt/ros/humble')]), 'shell': False}
+[2.773451] (lrs_mission) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/lrs_mission_node.dir/src/mission_loader.cpp.o\x1b[0m\n'}
+[2.773689] (lrs_mission) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/lrs_mission_node.dir/src/main.cpp.o\x1b[0m\n'}
+[2.773848] (lrs_mission) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/lrs_mission_node.dir/src/mavros_interface.cpp.o\x1b[0m\n'}
+[2.774038] (lrs_mission) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/lrs_mission_node.dir/src/mission_executor.cpp.o\x1b[0m\n'}
+[2.806316] (-) TimerEvent: {}
+[2.906890] (-) TimerEvent: {}
+[3.007503] (-) TimerEvent: {}
+[3.108152] (-) TimerEvent: {}
+[3.208778] (-) TimerEvent: {}
+[3.309355] (-) TimerEvent: {}
+[3.362483] (lrs_mission) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable lrs_mission_node\x1b[0m\n'}
+[3.409445] (-) TimerEvent: {}
+[3.510012] (-) TimerEvent: {}
+[3.610419] (-) TimerEvent: {}
+[3.710653] (-) TimerEvent: {}
+[3.810957] (-) TimerEvent: {}
+[3.911293] (-) TimerEvent: {}
+[4.011581] (-) TimerEvent: {}
+[4.111856] (-) TimerEvent: {}
+[4.212131] (-) TimerEvent: {}
+[4.274864] (lrs_mission) StdoutLine: {'line': b'[100%] Built target lrs_mission_node\n'}
+[4.284609] (lrs_mission) CommandEnded: {'returncode': 0}
+[4.285099] (lrs_mission) JobProgress: {'identifier': 'lrs_mission', 'progress': 'install'}
+[4.293069] (lrs_mission) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lrs/ros2_ws/build/lrs_mission'], 'cwd': '/home/lrs/ros2_ws/build/lrs_mission', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lrs'), ('LC_TIME', 'sk_SK.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lrs'), ('OLDPWD', '/home/lrs'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'sk_SK.UTF-8'), ('SYSTEMD_EXEC_PID', '1417'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/lrs/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lrs'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lrs'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/lrs/LRS-FEI/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/lib/ccache:/home/lrs/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/lrs/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lrs:@/tmp/.ICE-unix/1390,unix/lrs:/tmp/.ICE-unix/1390'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'sk_SK.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6d58bd75_d143_4381_b71d_c3af91401ce5'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'sk_SK.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.92'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lrs/ros2_ws/install/lrs_mission:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sk_SK.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'sk_SK.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'sk_SK.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lrs/ros2_ws/build/lrs_mission'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'sk_SK.UTF-8'), ('LC_PAPER', 'sk_SK.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lrs/ros2_ws/install/lrs_mission:/opt/ros/humble')]), 'shell': False}
+[4.299589] (lrs_mission) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.302980] (lrs_mission) StdoutLine: {'line': b'-- Installing: /home/lrs/ros2_ws/install/lrs_mission/lib/lrs_mission/lrs_mission_node\n'}
+[4.308257] (lrs_mission) StdoutLine: {'line': b'-- Set runtime path of "/home/lrs/ros2_ws/install/lrs_mission/lib/lrs_mission/lrs_mission_node" to ""\n'}
+[4.308384] (lrs_mission) StdoutLine: {'line': b'-- Installing: /home/lrs/ros2_ws/install/lrs_mission/share/ament_index/resource_index/package_run_dependencies/lrs_mission\n'}
+[4.309197] (lrs_mission) StdoutLine: {'line': b'-- Installing: /home/lrs/ros2_ws/install/lrs_mission/share/ament_index/resource_index/parent_prefix_path/lrs_mission\n'}
+[4.309390] (lrs_mission) StdoutLine: {'line': b'-- Up-to-date: /home/lrs/ros2_ws/install/lrs_mission/share/lrs_mission/environment/ament_prefix_path.sh\n'}
+[4.309467] (lrs_mission) StdoutLine: {'line': b'-- Installing: /home/lrs/ros2_ws/install/lrs_mission/share/lrs_mission/environment/ament_prefix_path.dsv\n'}
+[4.309608] (lrs_mission) StdoutLine: {'line': b'-- Up-to-date: /home/lrs/ros2_ws/install/lrs_mission/share/lrs_mission/environment/path.sh\n'}
+[4.309685] (lrs_mission) StdoutLine: {'line': b'-- Installing: /home/lrs/ros2_ws/install/lrs_mission/share/lrs_mission/environment/path.dsv\n'}
+[4.309803] (lrs_mission) StdoutLine: {'line': b'-- Installing: /home/lrs/ros2_ws/install/lrs_mission/share/lrs_mission/local_setup.bash\n'}
+[4.309900] (lrs_mission) StdoutLine: {'line': b'-- Installing: /home/lrs/ros2_ws/install/lrs_mission/share/lrs_mission/local_setup.sh\n'}
+[4.310025] (lrs_mission) StdoutLine: {'line': b'-- Installing: /home/lrs/ros2_ws/install/lrs_mission/share/lrs_mission/local_setup.zsh\n'}
+[4.310259] (lrs_mission) StdoutLine: {'line': b'-- Installing: /home/lrs/ros2_ws/install/lrs_mission/share/lrs_mission/local_setup.dsv\n'}
+[4.310415] (lrs_mission) StdoutLine: {'line': b'-- Installing: /home/lrs/ros2_ws/install/lrs_mission/share/lrs_mission/package.dsv\n'}
+[4.310930] (lrs_mission) StdoutLine: {'line': b'-- Installing: /home/lrs/ros2_ws/install/lrs_mission/share/ament_index/resource_index/packages/lrs_mission\n'}
+[4.311826] (lrs_mission) StdoutLine: {'line': b'-- Installing: /home/lrs/ros2_ws/install/lrs_mission/share/lrs_mission/cmake/lrs_missionConfig.cmake\n'}
+[4.311936] (lrs_mission) StdoutLine: {'line': b'-- Installing: /home/lrs/ros2_ws/install/lrs_mission/share/lrs_mission/cmake/lrs_missionConfig-version.cmake\n'}
+[4.312058] (lrs_mission) StdoutLine: {'line': b'-- Up-to-date: /home/lrs/ros2_ws/install/lrs_mission/share/lrs_mission/package.xml\n'}
+[4.312183] (-) TimerEvent: {}
+[4.313565] (lrs_mission) CommandEnded: {'returncode': 0}
+[4.350501] (lrs_mission) JobEnded: {'identifier': 'lrs_mission', 'rc': 0}
+[4.350829] (-) EventReactorShutdown: {}

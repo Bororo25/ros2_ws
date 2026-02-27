@@ -1,0 +1,2 @@
+source;share/lrs_mission/environment/ament_prefix_path.sh
+source;share/lrs_mission/environment/path.sh

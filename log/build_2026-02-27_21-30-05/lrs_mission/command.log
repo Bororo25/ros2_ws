@@ -1,0 +1,6 @@
+Invoking command in '/home/lrs/ros2_ws/build/lrs_mission': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lrs/ros2_ws -DCMAKE_INSTALL_PREFIX=/home/lrs/ros2_ws/install/lrs_mission
+Invoked command in '/home/lrs/ros2_ws/build/lrs_mission' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lrs/ros2_ws -DCMAKE_INSTALL_PREFIX=/home/lrs/ros2_ws/install/lrs_mission
+Invoking command in '/home/lrs/ros2_ws/build/lrs_mission': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lrs/ros2_ws/build/lrs_mission -- -j8 -l8
+Invoked command in '/home/lrs/ros2_ws/build/lrs_mission' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lrs/ros2_ws/build/lrs_mission -- -j8 -l8
+Invoking command in '/home/lrs/ros2_ws/build/lrs_mission': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lrs/ros2_ws/build/lrs_mission
+Invoked command in '/home/lrs/ros2_ws/build/lrs_mission' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lrs/ros2_ws/build/lrs_mission
