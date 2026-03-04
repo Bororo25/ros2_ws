@@ -24,7 +24,7 @@ MissionExecutor::MissionExecutor()
   rate_hz_ = this->get_parameter("rate_hz").as_double();
 
   if (mission_path_.empty()) {
-  mission_path_ = std::string(getenv("HOME")) + "/ros2_ws/missions/mission1.csv";
+  mission_path_ = std::string(getenv("HOME")) + "/ros2_ws/missions/mission_2_simple.csv";
 }
 
   mission_ = MissionLoader::load_from_file(mission_path_);
