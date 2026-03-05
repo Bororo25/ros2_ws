@@ -234,6 +234,29 @@ void MissionExecutor::step_item(const MissionItem& it)
     return;
   }
 
+  if (cmd == "yaw90") {
+  do_publish();
+
+  if (!yaw_initialized_ && mav_.have_pose()) {
+    double cyaw = yaw_from_quat(mav_.current_pose().pose.orientation);
+
+    // rotate +90 degrees relative to current yaw
+    target_yaw_ = cyaw + M_PI_2;
+
+    sp_.pose.orientation = quat_from_yaw(target_yaw_);
+    yaw_initialized_ = true;
+    RCLCPP_INFO(get_logger(), "Command: YAW90");
+  }
+
+  if (reached(it.x, it.y, it.z, it.tol)) {
+    RCLCPP_INFO(get_logger(), "Yaw90 point reached, continue");
+    idx_++;
+    if (idx_ < mission_.size()) start_item(mission_[idx_]);
+    else phase_ = Phase::DONE;
+  }
+  return;
+}
+
   // unknown -> waypoint
   do_publish();
   if (reached(it.x, it.y, it.z, it.tol)) {
